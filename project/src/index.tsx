@@ -8,6 +8,7 @@ import { checkAuthAction } from './store/api-actions';
 import 'react-toastify/dist/ReactToastify.css';
 import HistoryRouter from './components/history-router/history-router';
 import browserHistory from './browser-history';
+import './main.css';
 
 store.dispatch(checkAuthAction());
 
@@ -18,7 +19,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <HistoryRouter history={browserHistory}>
+      <HistoryRouter history={browserHistory} basename={process.env.PUBLIC_URL}>
         <ToastContainer />
         <App />
       </HistoryRouter>
