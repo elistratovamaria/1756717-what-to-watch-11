@@ -2,6 +2,7 @@
 
 * Студент: [Мария Елистратова](https://up.htmlacademy.ru/react/11/user/1756717).
 * Наставник: [Семён Якушев](https://htmlacademy.ru/profile/id1118791).
+* Посмотреть [здесь](https://elistratovamaria.github.io/1756717-what-to-watch-11/)
 
 ---
 
